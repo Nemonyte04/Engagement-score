@@ -8,7 +8,7 @@ st.title("Alumni Engagement Score Compiler")
 st.markdown("Upload each of the four CSV files corresponding to alumni engagement types.")
 
 # File uploaders
-communication_file = st.file_uploader("Upload Communication CSV", type=["csv"])
+communication_file = st.file_uploader("\033[1m Upload Communication CSV", type=["csv"])
 experiential_file = st.file_uploader("Upload Experiential CSV", type=["csv"])
 volunteer_file = st.file_uploader("Upload Volunteer CSV", type=["csv"])
 philanthropic_file = st.file_uploader("Upload Philanthropic CSV", type=["csv"])
